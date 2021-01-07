@@ -20,6 +20,10 @@ python ./gitlog_prety.py 2020-12-20
 # 或者
 python ./gitlog_prety.py
 
+
+# 或者直接用相对或绝对目录执行
+python ../github/code_clone_path/gitlog_prety.py
+
 ```
 
 ## 已经完成的功能和特性
