@@ -9,6 +9,13 @@ python2.7+
 ## 使用说明
 
 ```shell
+# clone本项目到本地
+git clone https://github.com/wangfpp/code_statistics
+# cd到项目目录
+cd work/project_name
+# 拷贝统计代码到项目目录
+cp ../code_clone_path/gitlog_prety.py ./
+# 执行代码
 python ./gitlog_prety.py 2020-12-20 
 # 或者
 python ./gitlog_prety.py
