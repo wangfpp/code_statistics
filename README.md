@@ -11,7 +11,7 @@ python2.7+
 ```shell
 python ./gitlog_prety.py 2020-12-20 
 # 或者
-python2 ./gitlog_prety.py
+python ./gitlog_prety.py
 
 ```
 
