@@ -159,7 +159,7 @@ class StatiCode:
                     code_num["file"] += item
                 elif (i == 1):
                     if (item >= 1000):
-                        print("\033[0;33;40m此次提交代码{} \033[0m".format(item))
+                        print("\033[0;33;40m　此次提交代码{}可能有第三方依赖库!!!\033[0m".format(item))
                     code_num["add"] += item
                 elif ( i == 2):
                     code_num["delete"] += item
@@ -196,7 +196,7 @@ class StatiCode:
 
 if __name__ == "__main__":
     argvs = sys.argv
-    mode = "detail"
+    mode = "default"
     if (len(argvs) > 1):
         date_str = argvs[1]
         mat = r.match(r"(\d{4}-\d{2}-\d{2})",date_str)
